@@ -1,0 +1,69 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="business-card">
+        <img class="profile-image" src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg" alt="flower picture" >
+        <p class="full-name">Elly Onunga</p>
+        <p class="designation">Software Developer</p>
+        <p class="company">SnapIT Developers co</p>
+        <hr>
+        <p>onungaelly@gmail.com</p>
+        <p>0102880577</p>
+        <a href="https://github.com/EllyOnunga/portfolio.git" target="_blank">Portfolio</a>
+        <hr>
+
+        <div class="social-media">
+            <h2>Connect with me</h2>
+            <a href="https://twitter.com/ellyonunga">Twitter</a>
+            <a href="https:/www.linkedin.com/in/elly-onunga/">LinkedIn</a>
+            <a href="https://github.com/EllyOnunga">GitHub</a>
+        </div>
+</div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.business-card {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-image {
+max-width: 100%
+}
+
+** end of styles.css **
+
